@@ -1,0 +1,82 @@
+/*
+ *  Common
+ */
+div, table{
+    font-size: 10pt;
+}
+.doc-wrap{
+    font-family: firefly, DejaVu Sans, sans-serif;
+    font-size: 12pt;
+    padding: 10px;
+}
+.doc-wrap-vertical{
+    width: 680px;
+}
+.doc-wrap-horizontal{
+    width: 1200px;
+}
+.doc-header{
+    padding-bottom: 10px;
+}
+.doc-title{
+    font-size: 16pt;
+}
+.doc-data{
+}
+.doc-footer{
+    padding-top: 10px;
+}
+.width100{
+    width: 100%;
+}
+
+/*
+ *  Tables
+ */
+.doc-table{
+    width: 100%;
+}
+.doc-table-bordered {
+    font-size: 10pt;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.doc-table-bordered th {
+    border: 1px solid black;
+    padding: 2px 4px;
+}
+.doc-table-bordered td {
+    border: 1px solid black;
+    padding: 2px 4px;
+}
+
+/*
+ *  Typo
+ */
+.text-right{ text-align: right; }
+.text-center{ text-align: center; }
+.text-i{ font-style: italic; }
+.text-b{ font-weight: bold; }
+.text-u{ text-decoration: underline; }
+.text-u-border{ border-bottom: 1px solid #000; }
+
+/*
+ *  Doc parts
+ */
+p.nopad{
+    padding: 0;
+}
+p.nomar{
+    margin: 0;
+}
+p.descline-top {
+    margin-bottom: 0;
+    text-align: center;
+    width: 100%;
+}
+p.descline-bot {
+    margin-top: 0;
+    text-align: center;
+    width: 100%;
+    border-top: 1px solid #000;
+}

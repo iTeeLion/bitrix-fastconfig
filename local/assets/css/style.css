@@ -1,0 +1,61 @@
+.custom-error {
+    background: #f6e3e3;
+    border: solid 1px #e2a2a2;
+    padding: 20px;
+}
+
+.ms-selectable, .ms-selection{
+    width: 49.9%;
+    float: left;
+}
+
+.ms-drop.bottom {
+    overflow-y: scroll;
+}
+.ms-drop.bottom ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.ms-no-results, .ms-choice{
+    display: none;
+}
+.ms-expand-height ul{
+    max-height: unset !important;
+}
+.ms-parent{
+    width: unset !important;
+}
+
+.ui-datepicker.datepicker-calendar-off .ui-datepicker-calendar{
+    display: none;
+}
+
+::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 7px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: rgba(0,0,0,.5);
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.5);
+}
+.bg-lightgreen{
+    background-color: #9f9;
+}
+.bg-lightblue{
+    background-color: #adf0ff;
+}
+.bg-lightyellow{
+    background-color: #f6ffad;
+}
+.bg-lightred{
+    background-color: #f77;
+}
+.bg-darkred{
+    background-color: #c32828;
+}
+
+.title-pad-left {
+    padding-left: 16px;
+}

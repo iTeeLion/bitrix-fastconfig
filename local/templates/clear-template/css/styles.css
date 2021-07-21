@@ -1,0 +1,15 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#bx-panel {
+    position: fixed !important;
+    width: 100% !important;
+    z-index: 9999 !important;
+    left: 98% !important;
+}
+#bx-panel:hover {
+    left: 0 !important;
+}
