@@ -13,7 +13,7 @@ desktop.ini
 /.idea/*
 /.ssh/*
 /.npm/*
-/_dev/*
+/fastconfig_preset/_dev/adm
 /_test/*
 /_deny/*
 /_html/*
