@@ -3,7 +3,7 @@ if (!defined('B_PROLOG_INCLUDED') || B_PROLOG_INCLUDED !== true) {
     die();
 }
 
-include_once ('init.php');
+include_once('init.php');
 use \Bitrix\Main\Page\Asset;
 
 // Styles

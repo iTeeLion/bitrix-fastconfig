@@ -38,6 +38,6 @@ if(class_exists('\App\Utils')){
 }
 
 if(is_file(__DIR__ . '/bx-events.php')){
-    include_once (__DIR__ . '/bx-events.php');
+    include_once(__DIR__ . '/bx-events.php');
 }
 ?>
